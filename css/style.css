@@ -79,3 +79,25 @@ text-align: center;
 .titulodetalles {
     text-align: center;
   }
+
+  /*GENERO*/
+
+.imagenesgenero{
+    width: 250px;
+    height: 250px;
+}
+
+.articulospadregeneros {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+} 
+
+/*DETALLES GENERO*/
+
+.articulosdetallesgenero{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
