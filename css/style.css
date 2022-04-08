@@ -5,8 +5,35 @@ body {
     margin: 0;
     background-color: darkgray;
     }
-ul, ol {
-    padding: 0; }
+
+    ul, ol {
+        padding: 0; }
+
+    li {
+        list-style-type: none;}
+    a {
+        text-decoration: none; color: black; 
+
+    }
+
+    a:hover {
+        color: teal;
+    } 
+
+
+        .headerpadre {
+            height: 20vh;
+            border-bottom: 22px solid black;
+            display: flex;
+            align-items: center;
+            justify-content: space-between
+        }
+
+        .logo {
+            width: 100px ;
+            border-radius: 180px;
+ul,ol{padding: 0px;
+}
 li {
     list-style-type: none;}
 a {
@@ -21,6 +48,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between
+
         }
 .logo {
     width: 100px ;
@@ -47,8 +75,17 @@ a:hover {
      align-content: center;
      padding: 1% 2%;
     text-align: center;
+    
  }
+<<<<<<< HEAD
+
+.articulos p {
+  font-size: medium;
+}
+ .articulos a {
+=======
 .articulos a {
+>>>>>>> 257790ec289b0cccfd1b56312c0b33b06449c99a
     width: 150px;
     padding: 10px;
     color: white;
@@ -80,6 +117,7 @@ text-align: center;
     text-align: center;
   }
 
+<<<<<<< HEAD
   /*GENERO*/
 
 .imagenesgenero{
@@ -101,3 +139,5 @@ text-align: center;
     flex-wrap: wrap;
     flex-direction: column;
 }
+=======
+>>>>>>> f907b3fd8813085808195aca6aa318e8b72df637
