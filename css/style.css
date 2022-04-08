@@ -78,7 +78,6 @@ align-self: center;
    
 }
 
-
 .footernombres li {
     list-style: none;
     height: 30px;
@@ -88,3 +87,7 @@ align-self: center;
 text-align: center;
     
 }
+
+.titulodetalles {
+    text-align: center;
+  }
