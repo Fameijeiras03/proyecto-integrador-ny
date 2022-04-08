@@ -23,7 +23,7 @@
 
         .headerpadre {
             height: 20vh;
-            border-bottom: 2px solid black;
+            border-bottom: 22px solid black;
             display: flex;
             align-items: center;
             justify-content: space-between
@@ -55,9 +55,12 @@
      align-content: center;
      padding: 1% 2%;
     text-align: center;
+    
  }
 
-
+.articulos p {
+  font-size: medium;
+}
  .articulos a {
     width: 150px;
     padding: 10px;
@@ -93,3 +96,4 @@ text-align: center;
 .titulodetalles {
     text-align: center;
   }
+
