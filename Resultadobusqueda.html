@@ -1,14 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Resultado de Busqueda</title>
-    <link rel="stylesheet" href="../proyecto-integrador-ny/css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 </head>
+
 <body>
-    
+    <header class="headerpadre" style="padding: 10px 200px;">
+        <div> <img class="logo" src="./img/draw_svg20210708-27119-17pr84.svg.png" alt="Logo"></div>
+        <div>
+            <form action="./Resultadobusqueda.html" method="GET">
+                <input type="text" name="busqueda" id="busqueda" placeholder="Busca Musica Aqui">
+                <button> <i class="fa-solid fa-magnifying-glass"></i> </button>
+            </form>
+        </div>
+
+        <nav class="navegador">
+            <ul>
+                <li> <a href="./index.html">Home</a></li>
+                <li> <a href="./Detalle.html">Detalle</a></li>
+                <li> <a href="./Playlist.html">Playlist</a></li>
+                <li> <a href="./Generos.html">Generos</a></li>
+                <li> <a href="./Detallegenero.html">Detalle del Genero</a></li>
+                <li> <a href="./Resultadobusqueda.html">Resultado de busqueda</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section>
+        <div class="titulobusqueda">
+            <h1>RESULTADO DE BUSQUEDA PARA <span class="valorBuscado">"HARRY STYLES"</span> </h1>
+            <img src="./img/harryhits.jpeg" alt="">
+        </div>
+            <main>
+                <section class="articulospadre">
+
+                    <article class="articulos">
+                        <img width="300px" height="300px" src="./img/harry1.jpeg" alt="">
+                    </article>
+
+                    <article class="articulos">
+
+                    
+                    </article>
+
+                    <article class="articulos">
+                      
+                    </article>
+                </section>
+                <section class="articulospadre">
+
+                    <article class="articulos">
+                        <iframe width="400" height="200" src="https://www.youtube.com/embed/9NZvM1918_E?start=2"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </article>
+
+                    <article class="articulos">
+
+                        <iframe width="400" height="200" src="https://www.youtube.com/embed/TdrL3QxjyVw?start=2"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </article>
+
+                    <article class="articulos">
+                        <iframe width="400" height="200" src="https://www.youtube.com/embed/H5v3kku4y6Q?start=1"
+                            title="YouTube video player" frameborder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen></iframe>
+                    </article>
+                </section>
+            </main>
+       
+    </section>
 </body>
+
 </html>
