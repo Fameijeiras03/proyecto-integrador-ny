@@ -99,20 +99,30 @@ font-size: medium;
     color: rgb(7, 8, 8);
     background-color: seashell;
 }
-.footernombres ul {
+
+
+.footernombres{
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: 3%;
-}
-.footernombres li {
-    list-style: none;
-    height: 30px;
-    width: 50;
-    padding: 20px 20px;
-    background-color: silver;
-    text-align: center;
+    justify-content: space-around;
+    width: 50vw;
+    margin: 5px;
     
+
+}
+.footerubi{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    border: 4px solid rgb(144, 144, 144) ;
+    border-top-left-radius: 180px;
+    border-top-right-radius: 180px ;
+    margin: 20px 20px 0px 20px;
+    background-color: rgb(144, 144, 144);
+}
+
+.footeruldisplay{
+    border: 1vh solid rgb(144, 144, 144);
+    background-color: rgb(144, 144, 144);
 }
 .titulodetalles {
     text-align: center;
@@ -120,21 +130,18 @@ font-size: medium;
 
 
   /*GENERO*/
+.displaygeneros{
+    display: flex;
+    justify-content: space-around;
+    margin: 20vh 15vh 10vh 15vh;
 
-  .imagenesgenero{
-    width: 250px;
-    height: 250px;
 }
 
-.articulospadregeneros {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    margin-top: 30px;
-} 
-
 /*DETALLES GENERO*/
-
+.sizeimgGenero{
+    width: 45vh;
+    height: 45vh;
+}
 .titulosDeGe{
     font-size: 40px;
 }
