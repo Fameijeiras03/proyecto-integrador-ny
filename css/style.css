@@ -76,7 +76,8 @@ margin-top: -5px;
     flex-direction: column;
     align-content: center;
     padding: 1% 2%;
-    text-align: center;    
+    text-align: center;   
+   
 }
 .articulos p{
 font-size: medium;
@@ -210,4 +211,17 @@ font-size: 20px;
 
 .titulobusqueda h1{
 color: floralwhite;
+}
+
+.fotoprincipal {
+   display: flex;
+   justify-content: center;
+}
+
+
+
+.albumes h2 {
+    color: floralwhite;
+    margin-left: 140px;
+
 }
