@@ -3,7 +3,7 @@
 /*GENERAL*/
 body{
     margin: 0;
-    background-color: #252525;
+    background-color: #262626;
 }
 
 ul, ol{
@@ -26,9 +26,7 @@ li{
 }
 
 .logo{
-    width: 100px ;
-    border-radius: 180px;
-    border-radius: 180px; 
+    width: 130px;
 }
 
 ul,ol{
@@ -51,10 +49,7 @@ a:hover{
     align-items: center;
     justify-content: space-between
 }
-.logo{
-    width: 100px ;
-    border-radius: 180px;
-}
+
 
 /*HOME*/
 .titulohome {
