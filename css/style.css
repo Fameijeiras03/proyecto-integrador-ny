@@ -225,3 +225,46 @@ color: floralwhite;
     margin-left: 140px;
 
 }
+
+
+.bodyhome {
+   background-image: url( "../img/tocadiscos.jpeg");
+   background-repeat: no-repeat;
+ background-position-y: 147px;
+ background-size: 100% 500px;
+ 
+}
+
+.titulohome h1 {
+    text-decoration: black;
+    font-size: 60px;
+    text-align: center;
+}
+
+#titulohomeh4 {
+    font-size: 40px ;
+  
+}
+.titulohome {
+    margin-top: 120px;
+    margin-bottom: 250px;
+}
+
+.sobrenosotrosbloque {
+    display: flex;
+}
+.sobrenosotros {
+    display: flex;
+    flex-direction: column;
+    background-color: #868686;
+    width: 600px;
+    height: 500px;
+    margin-left: 80px;
+ font-size: large;
+ padding: 100px 50px;
+}
+
+.imagensobre {
+    margin-left: -20px;
+    margin-top: 15px;
+}
