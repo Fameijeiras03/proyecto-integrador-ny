@@ -2,35 +2,11 @@
 
 /*GENERAL*/
 body{
-    margin: 0;
     background-color: #262626;
 }
 
 ul, ol{
     padding: 0px
-}
-
-li{
-    list-style-type: none;
-}
-
-
-
-
-.headerpadre{
-    height: 20vh;
-    border-bottom: 22px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-
-.logo{
-    width: 130px;
-}
-
-ul,ol{
-    padding: 0px;
 }
 
 li{
@@ -42,29 +18,26 @@ a{
 a:hover{
     color: purple;
 } 
-.headerpadre{
-    height: 20vh;
-    border-bottom: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between
-}
-
 
 /*HOME*/
+.logo{
+    width: 130px;
+}
+
 .titulohome {
     text-align: center;
     }
+    .articulospadre {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 30px;
+    } 
 
-.articulospadre {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin-top: 30px;
-} 
-.articulos h4{
-margin-top: -5px;
-}
+    .articulos h4{
+        margin-top: -5px;
+        }
+
 
 .articulos{
     display: flex;
@@ -121,9 +94,8 @@ font-size: medium;
     text-align: center;
 }
 
-
-  /*GENERO*/
-.displaygeneros{
+ /*GENERO*/
+ .displaygeneros{
     display: flex;
     justify-content: space-around;
     margin: 20vh 15vh 10vh 15vh;
@@ -157,10 +129,6 @@ font-size: medium;
 
 }
 
-
-
-
-
 /*BUSQUEDA*/
 .titulobusqueda{text-align: center;}
 .valorBuscado {
@@ -169,26 +137,32 @@ font-size: xx-large;
 font-size: 20px;
 }
 
-
-
-
-
 .navdisplay{
     display: flex;
-    flex-wrap: wrap;
+    width: auto;
+    padding-top: 20px;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    width: 700px;
+ }
+
+ .navdisplay li {
+     padding: 10px;
+ }
+
+
+.headerpadre1{
+    display: flex;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    padding: 10px 200px;
+    align-items: center;
+    justify-content: space-between ;
+    border-bottom: 2px solid black;
 
 }
 
-.headerpadre1{
-    height: 20vh;
-    border-bottom: 2px solid black;
-    display: flex;
-    align-items: center;
-    justify-content: space-between}
 
 .tituloshome{color: white;
 }
@@ -213,21 +187,25 @@ color: floralwhite;
    justify-content: center;
 }
 
-
-
 .albumes h2 {
     color: floralwhite;
     margin-left: 140px;
 
 }
 
+.portada {
+    margin: 0 auto;
+    background-image: url( "../img/tocadiscos.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 100px 40px;
+    text-align: center;
+ }
 
-.bodyhome {
-   background-image: url( "../img/tocadiscos.jpeg");
-   background-repeat: no-repeat;
- background-position-y: 147px;
- background-size: 100% 500px;
- 
+ .titulohome {
+    margin-top: 80px;
+    margin-bottom: 250px;
 }
 
 .titulohome h1 {
@@ -241,13 +219,11 @@ color: floralwhite;
     color: #000000;
   
 }
-.titulohome {
-    margin-top: 120px;
-    margin-bottom: 250px;
-}
+
 
 .sobrenosotrosbloque {
     display: flex;
+    padding: 100px;
 }
 .sobrenosotros {
     display: flex;
@@ -289,7 +265,7 @@ justify-content: flex-start;
     font-family: sans-serif;
 }
 
-.articulo{
+.iframes{
 display: flex;
 flex-wrap: wrap;
 flex-direction: row;
@@ -313,51 +289,102 @@ color: white;
 
 @media (max-width: 768px) {
 
-    .bodyhome {
-        margin: auto;
-    }
     .imagensobre {
         display: none;
     }
-    .sobrenosotros {
+
+    .headerpadre1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    .navdisplay {
+        display: flex;
+       flex-direction: column;
+       justify-content: center;
+       align-items: center;
+       padding: 2px;
+    }
+
+  .sobrenosotros {
         align-items: center;
         justify-content: center;
         width: 700px;
     }
     .sobrenosotrosbloque {
        justify-content: center;
+       margin-left: 0px;
     }
     .articulos img {
-width: 170px;
+        width: 170px;
+    }
+
+    .titulobusqueda img {
+        width: 700px ;
+      
+    }
+
+    .articulos audio {
+        width: 200px;
     }
 }
-
 @media (max-width: 420px) {
 
-.headerpadre1 {
-    justify-content: left;
-}
+
     .imagensobre {
         display: none;
     }
-    .sobrenosotros {
-        align-items: center;
+
+    .portada {
+        background-image: none;
+        padding: 0px;
+    }
+
+    .headerpadre1 {
+        display: flex;
         justify-content: center;
-        width: 700px;
+        align-items: center;
+        flex-direction: column;
+     
     }
-    .sobrenosotrosbloque {
+
+    .navdisplay {
+        display: flex;
+       flex-direction: column;
        justify-content: center;
-       width: 900px;
+       align-items: center;
+       padding: 2px;
     }
-    .articulos img {
-width: 200px;
+
+  .sobrenosotrosbloque {
+        display: none;
+
     }
-    
+
     .articulospadre {
-      justify-content: left;
-      margin: 100px;
-    }
-    .footerubi {
-        width: 950px;
-    }
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+    } 
+   .articulos {
+      margin: 10px;
+   }
+    
+   .albumes h2 {
+     text-align: center;
+     margin-left: 0px;
+
+   }
+     .articulosdetallesgenero p {
+       width: fit-content;
+     }
+
+     .titulobusqueda img {
+         display: none;
+     }
 }
