@@ -309,3 +309,55 @@ color: white;
 .imgdetalle{
     border-radius: 30px;
 }
+
+
+@media (max-width: 768px) {
+
+    .bodyhome {
+        margin: auto;
+    }
+    .imagensobre {
+        display: none;
+    }
+    .sobrenosotros {
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+    }
+    .sobrenosotrosbloque {
+       justify-content: center;
+    }
+    .articulos img {
+width: 170px;
+    }
+}
+
+@media (max-width: 420px) {
+
+.headerpadre1 {
+    justify-content: left;
+}
+    .imagensobre {
+        display: none;
+    }
+    .sobrenosotros {
+        align-items: center;
+        justify-content: center;
+        width: 700px;
+    }
+    .sobrenosotrosbloque {
+       justify-content: center;
+       width: 900px;
+    }
+    .articulos img {
+width: 200px;
+    }
+    
+    .articulospadre {
+      justify-content: left;
+      margin: 100px;
+    }
+    .footerubi {
+        width: 950px;
+    }
+}
