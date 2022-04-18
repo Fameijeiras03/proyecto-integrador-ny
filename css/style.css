@@ -153,7 +153,7 @@ font-size: 20px;
 .navdisplay{
     display: flex;
     width: auto;
-    padding-top: 20px;
+    padding-top: 0px;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-between;
@@ -171,7 +171,7 @@ font-size: 20px;
     flex-wrap: wrap;
     padding: 10px 200px;
     align-items: center;
-    justify-content: space-between ;
+    justify-content: space-around ;
     border-bottom: 2px solid black;
 
 }
@@ -442,5 +442,22 @@ font-size: x-large;
         margin-top: 20px;
         padding: 10px;
     }
-
 }
+.formubi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-content: center;
+}
+
+
+
+
+.logoformubi{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{ margin: 10px;}
