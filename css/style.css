@@ -214,10 +214,14 @@ color: floralwhite;
     padding: 100px 40px;
     text-align: center;
  }
-
+ .titulosbackground {
+    background-color: #90611ea8;
+   
+}
  .titulohome {
     margin-top: 80px;
     margin-bottom: 250px;
+    
 }
 
 .titulohome h1 {
@@ -299,11 +303,10 @@ color: white;
 }
 
 
-<<<<<<< HEAD
-=======
-.titulosbackground{
-    background-color: #90611ea8;}
->>>>>>> e198bf0b109db7f7fd53bc29525684c5bfa6fda8
+
+
+
+
 
 @media (max-width: 768px) {
 
@@ -329,8 +332,9 @@ color: white;
 
   .sobrenosotros {
         align-items: center;
-        justify-content: center;
-        width: 700px;
+       justify-content: center;
+        width: 800px;
+        margin-left: 0px;
     }
     .sobrenosotrosbloque {
        justify-content: center;
@@ -347,6 +351,15 @@ color: white;
 
     .articulos audio {
         width: 200px;
+    }
+
+    .displaygeneros {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .imagenesgeneros {
+        margin-top: 20px;
     }
 }
 @media (max-width: 420px) {
@@ -400,10 +413,24 @@ color: white;
    }
      .articulosdetallesgenero p {
        width: fit-content;
+       padding: 20px;
      }
 
      .titulobusqueda img {
          display: none;
      }
 
+     .titulosbackground {
+         background-color: transparent;
+     }
+     .displaygeneros {
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        align-items: center;
+    }
+    .imagenesgeneros {
+        margin-top: 20px;
+        padding: 10px;
+    }
 }
