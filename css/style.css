@@ -199,7 +199,6 @@ color: floralwhite;
    display: flex;
    justify-content: center;
 }
-
 .albumes h2 {
     color: floralwhite;
     margin-left: 140px;
@@ -300,6 +299,11 @@ color: white;
 }
 
 
+<<<<<<< HEAD
+=======
+.titulosbackground{
+    background-color: #90611ea8;}
+>>>>>>> e198bf0b109db7f7fd53bc29525684c5bfa6fda8
 
 @media (max-width: 768px) {
 
@@ -401,4 +405,5 @@ color: white;
      .titulobusqueda img {
          display: none;
      }
+
 }
