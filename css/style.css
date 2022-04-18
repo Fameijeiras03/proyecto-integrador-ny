@@ -94,6 +94,19 @@ font-size: medium;
     text-align: center;
 }
 
+.faveados {
+    margin-top: 10px;
+} 
+.faveados a {
+    background-color: transparent;
+}
+ 
+.faveados a:hover {
+    background-color: transparent;
+   color: red;
+
+} 
+
  /*GENERO*/
  .displaygeneros{
     display: flex;
@@ -285,6 +298,7 @@ color: white;
 .imgdetalle{
     border-radius: 30px;
 }
+
 
 
 @media (max-width: 768px) {
