@@ -302,11 +302,20 @@ color: white;
     border-radius: 30px;
 }
 
+.cancionesplaylist{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: baseline;
+font-size: x-large;
+}
+.corazonplaylist{
+    margin-right: 20px;
+
+}
 
 
-
-
-
+/*media*/
 
 @media (max-width: 768px) {
 
@@ -433,4 +442,5 @@ color: white;
         margin-top: 20px;
         padding: 10px;
     }
+
 }
